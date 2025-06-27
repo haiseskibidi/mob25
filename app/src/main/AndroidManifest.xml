@@ -35,6 +35,10 @@
             android:exported="false" />
             
         <activity
+            android:name=".ActivityDetailsActivity"
+            android:exported="false" />
+            
+        <activity
             android:name=".HelloWorld"
             android:exported="false" />
     </application>
