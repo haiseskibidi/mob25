@@ -1,5 +1,6 @@
 package ru.fefu.heeello
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
@@ -39,6 +40,11 @@ class LoginActivity : AppCompatActivity() {
             // Здесь будет логика аутентификации
             // Пока просто показываем сообщение об успешном входе
             Toast.makeText(this, "Вход выполнен успешно", Toast.LENGTH_SHORT).show()
+            
+            // Переход на главный экран
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish() // Завершаем текущую активность
         }
     }
 } 
