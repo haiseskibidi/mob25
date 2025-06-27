@@ -41,6 +41,13 @@
         <activity
             android:name=".HelloWorld"
             android:exported="false" />
+            
+        <activity
+            android:name=".NewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

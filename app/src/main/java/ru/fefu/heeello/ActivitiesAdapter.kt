@@ -10,9 +10,14 @@ private const val TYPE_DATE = 0
 private const val TYPE_ACTIVITY = 1
 
 class ActivitiesAdapter(
-    private val activities: List<ActivityListItem>,
+    private var activities: List<ActivityListItem>,
     private val onActivityClick: (ActivityListItem.Activity) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+
+    fun updateData(newActivities: List<ActivityListItem>) {
+        this.activities = newActivities
+        notifyDataSetChanged()
+    }
 
     override fun getItemViewType(position: Int): Int {
         return when (activities[position]) {
