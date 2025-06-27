@@ -2,7 +2,11 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Heeello" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <!-- Устанавливаем стиль для TextInputLayout по умолчанию -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
     </style>
 
     <style name="Theme.Heeello" parent="Base.Theme.Heeello" />
