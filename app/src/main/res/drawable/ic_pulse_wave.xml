@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="150dp"
+    android:viewportWidth="300"
+    android:viewportHeight="150">
+
+    <!-- Back Wave -->
+    <path
+        android:fillColor="@color/primary_light"
+        android:pathData="M0,80 C50,40 80,120 150,80 S250,40 300,80 V150 H0 Z" />
+
+    <!-- Middle Wave -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M0,90 C60,60 90,130 160,90 S240,60 300,90 V150 H0 Z" />
+
+    <!-- Front Wave -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M0,100 C70,80 100,140 170,100 S230,80 300,100 V150 H0 Z" />
+
+</vector> 

@@ -34,7 +34,6 @@ captures/
 *.apk
 output-metadata.json
 
-# Keystore files
 *.jks
 *.keystore
 

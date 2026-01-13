@@ -1,4 +1,29 @@
 <resources>
-    <string name="app_name">Heeello</string>
+    <string name="app_name">Фитнес трекер ДВФУ</string>
     <string name="label_hello_world">Hello World</string>
+    
+    <!-- Экран приветствия -->
+    <string name="welcome_title">V</string>
+    <string name="welcome_subtitle">ACTIVITY</string>
+    <string name="welcome_text">Пожалуй лучший\nфитнес трекер в ДВФУ</string>
+    <string name="welcome_created_by">Созданный студентами\n2-ого курса</string>
+    <string name="welcome_register">Зарегистрироваться</string>
+    <string name="welcome_login_question">Уже есть аккаунт?</string>
+    
+    <!-- Экран регистрации -->
+    <string name="registration_title">Регистрация</string>
+    <string name="registration_login">Логин</string>
+    <string name="registration_password">Пароль</string>
+    <string name="registration_confirm_password">Повторите пароль</string>
+    <string name="registration_name">Имя или никнейм</string>
+    <string name="registration_gender">Пол</string>
+    <string name="registration_continue">Продолжить</string>
+    <string name="registration_terms">Нажимая на кнопку, вы соглашаетесь с </string>
+    <string name="registration_privacy_policy">политикой конфиденциальности</string>
+    <string name="registration_and">и</string>
+    <string name="registration_terms_of_use">пользовательским соглашением</string>
+    
+    <!-- Экран входа -->
+    <string name="login_title">Вход</string>
+    <string name="login_button">Продолжить</string>
 </resources>
